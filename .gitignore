@@ -152,7 +152,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+# /site - Commented out to allow tracking of site folder for static website
 
 # mypy
 .mypy_cache/
