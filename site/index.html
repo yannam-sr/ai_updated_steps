@@ -4,7 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 <body>
+    <h1>Employee Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Salary</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>E001</td>
+                <td>$75,000</td>
+                <td>Engineering</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>E002</td>
+                <td>$80,000</td>
+                <td>Marketing</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>E003</td>
+                <td>$70,000</td>
+                <td>Sales</td>
+            </tr>
+            <tr>
+                <td>Alice Williams</td>
+                <td>E004</td>
+                <td>$85,000</td>
+                <td>Engineering</td>
+            </tr>
+            <tr>
+                <td>Charlie Brown</td>
+                <td>E005</td>
+                <td>$65,000</td>
+                <td>HR</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
